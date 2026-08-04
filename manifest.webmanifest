@@ -1,13 +1,10 @@
 {
-  "id": "/",
   "name": "Holleman Personal Command Center",
   "short_name": "Holleman Command",
-  "description": "A private, local-first personal operations dashboard.",
+  "description": "A private, cloud-ready personal command center for performance, schedule, career, and daily execution.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "orientation": "any",
-  "background_color": "#070a0f",
-  "theme_color": "#070a0f",
-  "categories": ["productivity", "health", "lifestyle"]
+  "background_color": "#050606",
+  "theme_color": "#050606"
 }
