@@ -1,7 +1,89 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07090d"><link rel="manifest" href="/manifest.webmanifest"><title>Holleman Performance Command Center V5</title><style>
-:root{--bg:#07090d;--panel:#10161f;--panel2:#151d28;--line:#273241;--text:#f4f7fb;--muted:#93a0b0;--green:#77e36f;--blue:#4aa3ff;--violet:#9f7aea;--cyan:#35d2c8}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 72% -12%,rgba(40,72,116,.28),transparent 34%),linear-gradient(#07090d,#090c12);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}.app{display:grid;grid-template-columns:250px 1fr;min-height:100vh}.side{position:sticky;top:0;height:100vh;padding:20px;border-right:1px solid var(--line);background:rgba(0,0,0,.27);backdrop-filter:blur(18px)}.brand{display:flex;gap:12px;align-items:center;margin-bottom:25px}.shield{width:46px;height:52px;display:grid;place-items:center;background:var(--panel2);border:1px solid #667085;clip-path:polygon(50% 0,94% 18%,88% 76%,50% 100%,12% 76%,6% 18%);font-weight:900}.brand b{letter-spacing:.1em}.brand small{display:block;color:var(--muted);letter-spacing:.15em;font-size:9px}.nav button{width:100%;border:0;background:transparent;color:#aeb8c6;text-align:left;padding:13px;border-radius:12px;margin:3px 0;cursor:pointer}.nav button.active,.nav button:hover{background:linear-gradient(90deg,rgba(74,163,255,.15),transparent);box-shadow:inset 3px 0 0 var(--blue);color:#fff}.quote{position:absolute;bottom:18px;left:16px;right:16px;border:1px solid var(--line);background:var(--panel);border-radius:15px;padding:15px;color:#c8d0dc;font-size:12px;line-height:1.5}.main{padding:26px 28px 50px}.top{display:flex;justify-content:space-between;gap:15px;align-items:flex-start}.top h1{margin:0;font-size:30px;letter-spacing:.04em}.top p{margin:5px 0;color:var(--muted)}.save{border:1px solid #347044;background:#173724;color:#fff;border-radius:12px;padding:10px 15px;cursor:pointer}.page{display:none}.page.active{display:block}.grid{display:grid;gap:14px}.scores{grid-template-columns:repeat(5,1fr);margin-top:22px}.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:22px;box-shadow:0 22px 65px rgba(0,0,0,.32);padding:18px}.score{text-align:center}.eyebrow{color:#adb7c5;font-size:11px;font-weight:700;letter-spacing:.15em}.ring{width:112px;height:112px;border-radius:50%;margin:14px auto;display:grid;place-items:center}.ring>div{width:86px;height:86px;border-radius:50%;background:var(--panel);display:grid;place-items:center;font-size:31px;font-weight:900}.state{font-size:12px;font-weight:800}.status{text-align:center;display:grid;place-items:center}.status .hex{font-size:64px;color:var(--green)}.section{display:flex;align-items:flex-end;justify-content:space-between;margin:28px 2px 12px}.section h2{margin:0;font-size:14px;letter-spacing:.18em}.section span{font-size:12px;color:var(--muted)}.metrics{grid-template-columns:repeat(6,1fr)}.metric small{display:block;color:var(--muted);font-size:10px;letter-spacing:.13em}.metric strong{display:block;font-size:26px;margin:9px 0}.metric em{font-style:normal;color:var(--green);font-size:12px}.split{grid-template-columns:1.3fr 1fr}.triple{grid-template-columns:repeat(3,1fr)}label.check{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--line)}input[type=checkbox]{accent-color:var(--green)}.race{display:flex;gap:20px;align-items:center}.race-ring{width:145px;height:145px;border-radius:50%;background:conic-gradient(var(--blue) 68%,var(--line) 0);display:grid;place-items:center;flex:none}.race-ring>div{width:112px;height:112px;border-radius:50%;background:var(--panel);display:grid;place-items:center;text-align:center}.race-ring b{font-size:31px}.chart{width:100%;height:190px}.progress{height:8px;border-radius:99px;background:var(--line);overflow:hidden}.progress i{display:block;height:100%;border-radius:99px}.form{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.form label{font-size:12px;color:var(--muted)}input[type=number],input[type=file]{width:100%;margin-top:5px;padding:10px;border-radius:10px;background:#090d13;border:1px solid var(--line);color:white}.plans{grid-template-columns:repeat(3,1fr)}.exercise{border-top:1px solid var(--line);padding:11px 0;color:#d5dce6;font-size:14px}.notice{border:1px solid var(--line);background:rgba(0,0,0,.13);border-radius:14px;padding:14px;color:#bdc6d3;font-size:13px}.mobile{display:none}@media(max-width:1100px){.scores{grid-template-columns:repeat(3,1fr)}.metrics{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){.app{display:block}.side{height:auto;position:static;border-right:0;border-bottom:1px solid var(--line)}.brand{margin-bottom:12px}.nav{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}.nav button{text-align:center;padding:10px 3px;font-size:12px}.quote{display:none}.main{padding:18px 14px 90px}.top h1{font-size:22px}.scores,.metrics,.split,.triple,.plans{grid-template-columns:1fr 1fr}}@media(max-width:520px){.scores,.metrics,.split,.triple,.plans,.form{grid-template-columns:1fr}.save{display:none}.race{align-items:flex-start}.race-ring{width:125px;height:125px}.race-ring>div{width:96px;height:96px}}
-</style></head><body><div class="app"><aside class="side"><div class="brand"><div class="shield">H</div><div><b>HOLLEMAN</b><small>PERFORMANCE COMMAND</small></div></div><div class="nav" id="nav"></div><div class="quote">DISCIPLINE TODAY<br><b>LEADS TO FREEDOM TOMORROW.</b></div></aside><main class="main"><div class="top"><div><h1>HOLLEMAN PERFORMANCE COMMAND CENTER</h1><p id="date"></p></div><button class="save" onclick="saveData()">Save</button></div><div id="pages"></div></main></div><script>
-const tabs=[['dashboard','Command'],['heart','Heart'],['running','Running'],['strength','Strength'],['nutrition','Nutrition'],['body','Body'],['plans','Plans'],['settings','Data']];let data=JSON.parse(localStorage.getItem('holleman-v5-static')||'null')||{weight:249.8,restingHr:58,hrv:63,vo2:40.1,sleep:7.7,calories:2742,protein:221,water:105};const trend=[46,49,53,50,57,60,63];function score(){let s=data.sleep>=7.5?30:data.sleep>=7?25:data.sleep>=6?15:5;let h=data.hrv>=60?20:data.hrv>=50?15:data.hrv>=40?10:5;let r=data.restingHr<=60?20:data.restingHr<=64?15:data.restingHr<=69?10:5;let habits=data.protein>=200&&data.water>=100?10:data.protein>=200||data.water>=100?8:5;return Math.min(100,s+h+r+habits+20)}function card(label,value,trendText){return `<div class="card metric"><small>${label}</small><strong>${value}</strong><em>${trendText}</em></div>`}function mini(values,color){let mn=Math.min(...values),mx=Math.max(...values),pts=values.map((v,i)=>`${i*100/(values.length-1)},${90-(v-mn)/(mx-mn||1)*70}`).join(' ');return `<svg class="chart" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="0" y1="90" x2="100" y2="90" stroke="#273241"/><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.4" vector-effect="non-scaling-stroke"/></svg>`}function scoreCard(label,value,color,sub){return `<div class="card score"><div class="eyebrow">${label}</div><div class="ring" style="background:conic-gradient(${color} ${value}%,#273241 0)"><div>${value}</div></div><div class="state" style="color:${color}">${sub}</div></div>`}function section(t,s=''){return `<div class="section"><h2>${t}</h2><span>${s}</span></div>`}
-function dashboard(){let rec=score(),status=rec>=90?'FULL GO':rec>=80?'TRAIN AS PLANNED':rec>=70?'REDUCE VOLUME':'RECOVERY DAY';return `<div class="grid scores">${scoreCard('RECOVERY',rec,'#77e36f','EXCELLENT')}${scoreCard('RUN READINESS',82,'#4aa3ff','GOOD')}${scoreCard('STRENGTH',87,'#9f7aea','HIGH')}${scoreCard('SLEEP',83,'#35d2c8','GOOD')}<div class="card status"><div class="hex">⬢</div><div class="eyebrow">OVERALL STATUS</div><div class="state" style="color:#77e36f">${status}</div></div></div>${section('HEART HEALTH & VITALS','Latest values')}<div class="grid metrics">${card('RESTING HR',data.restingHr+' bpm','↓ 2 vs yesterday')}${card('HRV',data.hrv+' ms','↑ 8')}${card('VO₂ MAX',data.vo2.toFixed(1),'Improving')}${card('SLEEP',data.sleep.toFixed(1)+' h','Primary recovery driver')}${card('WEIGHT',data.weight.toFixed(1)+' lb','↓ 1.6 this week')}${card('WATER',data.water+' oz',Math.max(0,120-data.water)+' oz remaining')}</div>${section("TODAY'S MISSION",'Morning priorities')}<div class="grid split"><div class="card">${['Pull workout','5-mile Zone 2 run','Protein 220g+','Mobility 15 min','Water 120 oz'].map((x,i)=>`<label class="check"><input type="checkbox" ${i<3?'checked':''}>${x}</label>`).join('')}</div><div class="card race"><div class="race-ring"><div><b>68%</b><small>RACE READY</small></div></div><div><h3>ARMY TEN-MILER</h3><p>Projected finish <b>1:37:48</b></p><p>Goal <b>1:35:00</b></p><p>Long run <b>8–10 mi</b></p></div></div></div><div class="grid triple" style="margin-top:14px"><div class="card"><h3>Recovery Signals</h3>${mini(trend,'#77e36f')}</div><div class="card"><h3>Sleep Performance</h3>${mini([6.2,6.8,7.1,6.4,7.5,7.3,7.7],'#35d2c8')}</div><div class="card"><h3>Daily Intelligence</h3><p style="color:#aeb8c6;line-height:1.6">Strong HRV and a lower resting heart rate support normal training intensity today. Sleep remains the biggest lever for long-term recovery.</p><small>Recovery ${rec}%</small><div class="progress"><i style="width:${rec}%;background:#77e36f"></i></div><br><small>Nutrition 90%</small><div class="progress"><i style="width:90%;background:#4aa3ff"></i></div></div></div>`}
-function heart(){return section('HEART HEALTH','Trend-focused view')+`<div class="grid metrics">${card('RESTING HR',data.restingHr+' bpm','Improving')}${card('HRV',data.hrv+' ms','Above baseline')}${card('VO₂ MAX',data.vo2.toFixed(1),'Upward trend')}${card('SLEEP',data.sleep.toFixed(1)+' h','Watch consistency')}</div><div class="card" style="margin-top:14px">${mini(trend,'#77e36f')}</div>`}function running(){return section('RUNNING PERFORMANCE')+`<div class="grid metrics">${card('WEEKLY MILEAGE','24.7 mi','On plan')}${card('LONGEST RUN','7.2 mi','Target 8–10')}${card('AVG PACE','8:42','Improving')}${card('RACE READY','68%','Trending up')}</div>`}function strength(){return section('STRENGTH PERFORMANCE')+`<div class="grid triple">${card('WEEKLY VOLUME','18,450 lb','↑ 6%')}${card('PRS THIS MONTH','7','Strong momentum')}${card('READINESS','87','High')}</div>`}function nutrition(){return section('NUTRITION & MEALS','MacroFactor, Cronometer, MyFitnessPal ready')+`<div class="grid triple">${card('CALORIES',data.calories.toLocaleString(),'of 3,050')}${card('PROTEIN',data.protein+' g','Target met')}${card('WATER',data.water+' oz',Math.max(0,120-data.water)+' remaining')}</div><div class="card" style="margin-top:14px"><div class="grid plans">${[['Breakfast','620 kcal','55g protein'],['Lunch','780 kcal','68g protein'],['Dinner','920 kcal','76g protein']].map(x=>`<div><b>${x[0]}</b><p>${x[1]}</p><em style="color:#77e36f">${x[2]}</em></div>`).join('')}</div></div>`}function body(){return section('BODY COMPOSITION')+`<div class="grid metrics">${card('WEIGHT',data.weight.toFixed(1)+' lb','Current')}${card('GOAL','235 lb','14.8 lb remaining')}${card('BODY FAT','18.7%','Estimated')}${card('WEEKLY CHANGE','-1.6 lb','On pace')}</div>`}const workouts=[['Arsenal Pull','Commercial Gym','38 min',['Arsenal High Row — 3 × 8–12','Reloaded Iso Multi Row — 3 × 8–12','Seated Cable Row — 3 × 10–12','Rear Delt Fly — 3 × 12–15','Reloaded Preacher Curl — 3 × 8–12']],['Arsenal Push','Commercial Gym','42 min',['Vertical Chest Press — 3 × 6–10','Incline Press — 3 × 8–12','Shoulder Press — 3 × 8–12','Standing Lateral Raise — 3 × 12–15','Seated Triceps Extension — 3 × 10–15']],['Ares 2.0 Pull','Home Gym','40 min',['Lat Pulldown — 3 × 8–12','Single-Arm Cable Row — 3 × 10 each','Smith Bent-Over Row — 3 × 6–10','Face Pull — 3 × 12–15','Cable Curl — 3 × 10–12']]];function plans(){return section('WORKOUT PLAN LIBRARY','Home and commercial routines')+`<div class="grid plans">${workouts.map(w=>`<div class="card"><small>${w[1]}</small><h3>${w[0]}</h3><em style="color:#4aa3ff">${w[2]}</em>${w[3].map(e=>`<div class="exercise">${e}</div>`).join('')}</div>`).join('')}</div>`}function settings(){let fields=[['Weight','weight'],['Resting HR','restingHr'],['HRV','hrv'],['VO₂ Max','vo2'],['Sleep','sleep'],['Calories','calories'],['Protein','protein'],['Water','water']];return section('DATA & SETTINGS','Local-first, zero build')+`<div class="grid split"><div class="card"><div class="form">${fields.map(f=>`<label>${f[0]}<input type="number" step="0.1" value="${data[f[1]]}" oninput="data.${f[1]}=Number(this.value)"></label>`).join('')}</div><button class="save" style="margin-top:14px" onclick="saveData()">Save Update</button></div><div class="card"><h3>Import Existing App Data</h3><p style="color:#aeb8c6">CSV foundation for nutrition, running, workouts, and Apple Health export tools.</p><input type="file" accept=".csv"><div class="notice" style="margin-top:14px">Data remains local in this version. Supabase can be added next for cross-device synchronization.</div></div></div>`}const renders={dashboard,heart,running,strength,nutrition,body,plans,settings};function show(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.id===id))}document.getElementById('date').textContent=new Date().toLocaleDateString(undefined,{weekday:'long',month:'long',day:'numeric',year:'numeric'});document.getElementById('nav').innerHTML=tabs.map((t,i)=>`<button data-id="${t[0]}" class="${i===0?'active':''}" onclick="show('${t[0]}')">${t[1]}</button>`).join('');document.getElementById('pages').innerHTML=tabs.map((t,i)=>`<section class="page ${i===0?'active':''}" id="${t[0]}">${renders[t[0]]()}</section>`).join('');function saveData(){localStorage.setItem('holleman-v5-static',JSON.stringify(data));alert('Dashboard saved on this device.');location.reload()}
-</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#06111c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Holleman Command" />
+  <meta name="description" content="Private personal performance, planning, career, and life command center." />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <link rel="icon" href="/icon-192.png" />
+  <title>Holleman Command Center</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <noscript>This application requires JavaScript.</noscript>
+
+  <div id="authGate" class="auth-gate hidden" aria-live="polite">
+    <form id="authForm" class="auth-card">
+      <div class="brand-mark large">H</div>
+      <p class="eyebrow">PRIVATE ACCESS</p>
+      <h1>Holleman Command Center</h1>
+      <p id="authMessage" class="muted">Enter your command-center passcode.</p>
+      <label class="field">Passcode
+        <input id="passcodeInput" type="password" inputmode="numeric" autocomplete="current-password" required />
+      </label>
+      <button class="primary wide" type="submit">Unlock</button>
+      <button id="useLocalMode" class="text-button hidden" type="button">Continue in local-only mode</button>
+    </form>
+  </div>
+
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">H</div>
+        <div>
+          <strong>HOLLEMAN</strong>
+          <small>COMMAND CENTER</small>
+        </div>
+      </div>
+      <nav id="sidebarNav" class="side-nav" aria-label="Main navigation"></nav>
+      <div class="side-section">
+        <div class="section-label">SYNCS & SERVICES</div>
+        <div id="sideSyncs" class="sync-list"></div>
+      </div>
+      <div class="version-row"><span class="status-dot ok"></span><span id="versionLabel">v1.0.0</span><span>Operational</span></div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <h1 id="greeting">Good morning, Walter.</h1>
+          <p id="subtitle">Execute the day. Get better every day.</p>
+        </div>
+        <div class="topbar-actions">
+          <div class="date-chip"><strong id="dateLabel"></strong><small>Baltimore, MD</small></div>
+          <button id="searchButton" class="icon-button" title="Search" aria-label="Search">⌕</button>
+          <button id="notificationButton" class="icon-button" title="Notifications" aria-label="Notifications">◉<span id="notificationBadge" class="notification-badge">0</span></button>
+          <button id="profileButton" class="avatar-button" title="Settings" aria-label="Settings">WH</button>
+        </div>
+      </header>
+
+      <section id="quickStats" class="quick-stats"></section>
+      <section id="viewRoot" class="view-root" aria-live="polite"></section>
+    </main>
+
+    <aside id="workoutDock" class="workout-dock"></aside>
+
+    <div class="command-bar" role="region" aria-label="Quick actions">
+      <button id="commandPrompt" class="command-input"><span class="command-mic">●</span><span>Command Center AI — ask, add, schedule, analyze…</span></button>
+      <div id="quickActions" class="quick-actions"></div>
+    </div>
+  </div>
+
+  <dialog id="modal" class="modal">
+    <form id="modalForm" method="dialog">
+      <header><div><p class="eyebrow" id="modalEyebrow">COMMAND CENTER</p><h2 id="modalTitle">Update</h2></div><button class="icon-button" value="cancel" aria-label="Close">×</button></header>
+      <div id="modalBody" class="modal-body"></div>
+      <footer><button class="secondary" value="cancel">Cancel</button><button id="modalSubmit" class="primary" value="default">Save</button></footer>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <input id="importFile" class="hidden" type="file" accept="application/json" />
+  <script src="/app.js" defer></script>
+</body>
+</html>
