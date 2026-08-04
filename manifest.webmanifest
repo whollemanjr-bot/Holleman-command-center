@@ -1,8 +1,13 @@
 {
-  "name":"Holleman Performance Command Center",
-  "short_name":"Holleman Command",
-  "start_url":"/",
-  "display":"standalone",
-  "background_color":"#07090d",
-  "theme_color":"#07090d"
+  "id": "/",
+  "name": "Holleman Personal Command Center",
+  "short_name": "Holleman Command",
+  "description": "A private, local-first personal operations dashboard.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070a0f",
+  "theme_color": "#070a0f",
+  "categories": ["productivity", "health", "lifestyle"]
 }
