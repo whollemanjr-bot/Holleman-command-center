@@ -1,0 +1,35 @@
+'use strict';
+(function(){
+  const featuredJobs=[
+    {company:'Amazon',role:'Sr. Corporate Investigator, Enterprise Protection Program — Global Investigations',location:'Arlington, VA',compensation:'Compensation not listed',fit:96,source:'Current opening',link:'https://click.appcast.io/t/aHXnXTAjjTeZbnfUtq-dhZaNEy6qwESt6XEz-YDn0Eo50Di3EzD3v3BQl-4EeeOoMm_o2Zw06zKXXUiWdlZ0Uw==?sar_id=296bylhb&jpos=6',why:'Direct alignment with complex investigations, fraud, suspicious activity, evidence development, and enterprise protection.'},
+    {company:'Constellation Energy',role:'Director — Audit Services',location:'Baltimore, MD',compensation:'$195,300–$217,000',fit:89,source:'Current opening',link:'https://click.appcast.io/t/TOHsGEbaKUcrWekExTqghyDsdBMv36OkhFdvTwdcRj5A_zl0bEa1rk6maFpSrs2kvK2vviBM6dp7MMZN7BJO2A==?sar_id=296bylhb&jpos=13',why:'Strong compensation match with leadership, risk, controls, executive communication, and enterprise oversight.'},
+    {company:'KPMG',role:'Director, Markets Compliance',location:'Baltimore, MD',compensation:'Compensation not listed',fit:86,source:'Current opening',link:'https://click.appcast.io/t/DyV2d7TAyFkVQnLkCjmnQkpk_DFXQuq_5Dr2QiBUUu7XUVe0VbGEj0h7b-6ASRsr?sar_id=296bylhb&jpos=2',why:'Leverages banking, risk, compliance, investigations, judgment, and senior stakeholder management.'},
+    {company:'Blackwood Associates',role:'Director, Alliances — SLED & Enterprise',location:'Annapolis, MD',compensation:'$240,000–$280,000',fit:78,source:'Current opening',link:'https://www.ziprecruiter.com/job-redirect?match_token=Co8BChZ2UTJURGg3akZqWVJ4YkZ3Ty1pWlh3EiQwMTlmZDNlNy02OTRlLTdlYTItYjFiMC0wYzEzNTFhODE2ZDkaS0FBRXBxU0xyQlhXUEtmazNrWlZYNC1pa01NTWNtRGZPYnEtWkh3ZTBrNHVkMVhnWmwxTGdoOVJZXzA3bGpIcURkVVZWd0t4b1hfdyDarQUQARjarQU%3D&server_redirect=true&tsid=100000600',why:'Stretch opportunity combining public-sector credibility, enterprise relationships, cybersecurity solutions, and executive leadership.'}
+  ];
+
+  data.careerV7=data.careerV7||{};
+  data.careerV7.linkedinUrl=data.careerV7.linkedinUrl||'https://www.linkedin.com/in/walter-holleman-19306027';
+  data.careerV7.featuredJobs=featuredJobs;
+
+  const validUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'&&(/(^|\.)linkedin\.com$/i.test(u.hostname)||u.hostname.toLowerCase()==='www.linkedin.com')}catch{return false}};
+  window.saveLinkedInProfile=function(){const input=document.getElementById('careerLinkedInUrl'),value=(input?.value||'').trim();if(value&&!validUrl(value))return toast('Enter a valid LinkedIn profile URL.');data.careerV7.linkedinUrl=value;saveData(false);refresh();showPage('career',false);toast(value?'LinkedIn profile connected.':'LinkedIn profile link cleared.')};
+  window.openLinkedInProfile=function(){const url=data.careerV7.linkedinUrl;if(!validUrl(url))return toast('Add your LinkedIn profile URL first.');window.open(url,'_blank','noopener')};
+  window.trackFeaturedJob=function(i){const job=featuredJobs[i];if(!job)return;const pipeline=data.careerCommand.pipeline||(data.careerCommand.pipeline=[]);if(pipeline.some(x=>x.link===job.link))return toast('This job is already in your pipeline.');pipeline.unshift({company:job.company,role:job.role,status:'Saved',salary:job.compensation,next:'Review requirements and tailor resume',link:job.link});saveData(false);refresh();showPage('career',false);toast('Job added to your pipeline.')};
+
+  function linkedInPanel(){const url=data.careerV7.linkedinUrl;return `<section class="card linkedin-panel"><div><div class="eyebrow">Professional Profile</div><h3>LinkedIn</h3><p>${url?'Your profile is connected to the Career Command Center.':'Add your exact LinkedIn profile URL once, then open it directly from Career or Home.'}</p></div><div class="linkedin-controls"><input id="careerLinkedInUrl" placeholder="https://www.linkedin.com/in/your-profile" value="${esc(url)}"><button class="btn gold" onclick="saveLinkedInProfile()">Save Link</button><button class="btn" onclick="openLinkedInProfile()" ${url?'':'disabled'}>Open LinkedIn</button></div></section>`}
+
+  function jobPanel(){return `${section('Live Opportunities','Refreshed every other day with current openings')}<div class="featured-job-grid">${featuredJobs.map((j,i)=>`<article class="card featured-job"><div class="featured-job-top"><div><span class="job-company">${esc(j.company)}</span><h3>${esc(j.role)}</h3><p>${esc(j.location)} • ${esc(j.compensation)}</p></div><div class="job-fit"><b>${j.fit}%</b><small>FIT</small></div></div><p class="job-why">${esc(j.why)}</p><div class="job-actions"><a class="btn gold" href="${j.link}" target="_blank" rel="noopener">View Job</a><button class="btn" onclick="trackFeaturedJob(${i})">Add to Pipeline</button></div></article>`).join('')}</div><div class="notice">Job links refresh every other day and may close or change between checks. Review the employer posting before applying.</div>`}
+  }
+
+  function careerCommandCard(){const c=data.careerCommand,pipeline=c.pipeline||[],actions=[...pipeline.filter(x=>x.next).map(x=>x.next),...(c.priorities||[]).filter(x=>!x.done).map(x=>x.title)];return `<section class="card career-command-card"><div class="career-command-main"><div><div class="eyebrow">Career Command Center</div><h2>${pipeline.length?`${pipeline.length} opportunities in motion`:'Build the pipeline around the right roles.'}</h2><p>${actions[0]?`Next action: ${esc(actions[0])}`:'Start with the live opportunities and add the strongest matches to your pipeline.'}</p></div><div class="career-command-stats"><span><small>LIVE JOBS</small><b>${featuredJobs.length}</b></span><span><small>PIPELINE</small><b>${pipeline.length}</b></span><span><small>APPLIED</small><b>${pipeline.filter(x=>x.status==='Applied').length}</b></span><span><small>INTERVIEWS</small><b>${pipeline.filter(x=>['Hiring Manager','Interview','Final Round'].includes(x.status)).length}</b></span></div></div><div class="career-command-actions"><button class="btn gold" onclick="showPage('career')">Open Career Center</button><button class="btn" onclick="openLinkedInProfile()">LinkedIn</button><a class="btn" href="${featuredJobs[0].link}" target="_blank" rel="noopener">Top Job Match</a></div></section>`}
+
+  const originalCareer=window.careerPage;
+  window.careerPage=function(){let html=originalCareer();const tabsEnd=html.indexOf('</div>')+6;const active=data.careerV7.activeView||'overview';if(active==='overview')html=html.slice(0,tabsEnd)+linkedInPanel()+jobPanel()+html.slice(tabsEnd);else if(active==='pipeline')html=html.slice(0,tabsEnd)+jobPanel()+html.slice(tabsEnd);return html};
+  renders.career=window.careerPage;
+
+  const originalHome=window.homePage;
+  window.homePage=function(){const html=originalHome();const marker='<div class="v7-decision-grid">';const at=html.indexOf(marker);if(at<0)return careerCommandCard()+html;const close=html.indexOf('</div>',at)+6;return html.slice(0,close)+careerCommandCard()+html.slice(close)};
+  renders.home=window.homePage;
+  saveData(false);
+  render(currentPage());
+})();
