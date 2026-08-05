@@ -1,57 +1,67 @@
-# Holleman Personal Dashboard — Morning Briefing
+# Holleman Command Center — Morning Brief
 
-A premium, zero-build personal dashboard built around a readable morning briefing and the **Mockup C** visual direction.
+A premium, zero-build personal command center built around the **Mockup C** visual direction.
+
+## Functional connections now included
+
+### Live Morning Brief
+
+A Vercel serverless endpoint loads current headlines for all eight briefing subjects:
+
+- Law Enforcement & Public Safety
+- Maryland News
+- National Politics
+- Markets & Economy
+- Fitness & Health
+- Technology & AI
+- Tesla & EVs
+- Firearms & 2A
+
+The Home screen refreshes the brief automatically when it is older than 30 minutes. Manual refresh is also available.
+
+### Published Apple Calendar feed
+
+The Calendar page accepts a published Apple Calendar `webcal://` or `https://` subscription URL. It imports events as a read-only feed and combines them with locally created dashboard events.
+
+Calendar feeds automatically refresh after 15 minutes. The feed URL and imported events are stored in browser `localStorage`.
 
 ## Home screen
 
 The Home screen combines:
 
-- Morning overview and readiness
+- Connection status
+- Morning Brief
+- Readiness
+- Mission and Focus Mode
 - Today’s schedule and priorities
 - Health and recovery snapshot
 - Career progress
 - Nutrition and important dates
-- Eight briefing subjects from the scheduled 7:00 AM morning brief:
-  - Law Enforcement & Public Safety
-  - Maryland News
-  - National Politics
-  - Markets & Economy
-  - Fitness & Health
-  - Technology & AI
-  - Tesla & EVs
-  - Firearms & 2A
+- Daily Metrics and quick actions
 
-Briefing coverage prioritizes breaking news, career opportunities, policy and legal changes, research and studies, product releases, and Maryland developments.
+## Preserved modules
 
-## Preserved performance modules
-
-The rebuild keeps the existing performance areas:
-
-- Today and priorities
+- Command
+- Calendar
 - Health and recovery
 - Running
 - Strength
 - Nutrition
 - Body composition
 - Career
+- Morning Brief editor
 - Workout plans
 - Data and settings
 
-## Morning Brief editor
+## Apple Calendar event export
 
-The Morning Brief page allows the local headline, summary, top priority, daily focus, and all eight topic cards to be edited. The current zero-build version stores that copy in browser `localStorage`.
+The Calendar section also creates Apple-compatible `.ics` event files with a 15-minute reminder. On iPhone or iPad, open the downloaded file and choose **Add to Calendar**.
 
-Automated live stories require a connected data source in a later phase.
-
-## Apple Calendar
-
-The Calendar section creates Apple-compatible `.ics` event files with a 15-minute reminder. On iPhone or iPad, open the downloaded file and choose **Add to Calendar**.
-
-This is one-way export. Live two-way Apple Calendar synchronization requires a backend or native integration.
+Published-feed import is read-only. Live two-way Apple Calendar editing requires a native or authenticated backend integration.
 
 ## Local data
 
-Dashboard values, priorities, events, briefing content, and career information are stored in browser `localStorage`. JSON backup and restore are included.
+Dashboard values, priorities, local events, briefing content, connections, and career information are stored in browser `localStorage`. JSON backup and restore are included.
 
 ## Deploy to Vercel
 
@@ -61,7 +71,7 @@ Dashboard values, priorities, events, briefing content, and career information a
 4. Leave **Output Directory** blank.
 5. Deploy.
 
-Vercel serves `index.html` directly. There is no npm, framework compilation, database, or paid dependency.
+Vercel serves `index.html` directly and deploys the files under `/api` as serverless functions. There is no npm installation, framework compilation, database, or paid dependency.
 
 ## Add to iPhone or iPad
 
