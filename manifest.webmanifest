@@ -1,8 +1,9 @@
 {
-  "name":"Holleman Performance Command Center",
-  "short_name":"Holleman Command",
-  "start_url":"/",
-  "display":"standalone",
-  "background_color":"#07090d",
-  "theme_color":"#07090d"
+  "name": "Holleman Command Center — Intelligence Brief",
+  "short_name": "Holleman Command",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080a0d",
+  "theme_color": "#080a0d",
+  "description": "A premium personal command center for health, performance, career, calendar, and daily execution."
 }
