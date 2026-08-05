@@ -1,8 +1,10 @@
 {
-  "name":"Holleman Performance Command Center",
-  "short_name":"Holleman Command",
-  "start_url":"/",
-  "display":"standalone",
-  "background_color":"#07090d",
-  "theme_color":"#07090d"
+  "name": "Holleman Personal Command Center",
+  "short_name": "Holleman Command",
+  "description": "A private, cloud-ready personal command center for performance, schedule, career, and daily execution.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050606",
+  "theme_color": "#050606"
 }
