@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Holleman Command">
 <link rel="manifest" href="/manifest.webmanifest">
-<title>Holleman Command Center — V10</title>
+<title>Holleman Command Center — V11</title>
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/briefing.css">
 <link rel="stylesheet" href="/connections.css">
@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="/v8.css">
 <link rel="stylesheet" href="/share.css">
 <link rel="stylesheet" href="/v10.css">
+<link rel="stylesheet" href="/v11.css">
 </head>
 <body>
 <div class="app">
@@ -30,12 +31,12 @@
   </aside>
   <main class="main">
     <header class="topbar">
-      <div><div id="greeting" class="greeting">GOOD EVENING, WALTER</div><h1 id="pageTitle">Morning Brief</h1><div id="date" class="date"></div></div>
+      <div><div id="greeting" class="greeting">GOOD EVENING, WALTER</div><h1 id="pageTitle">Home</h1><div id="date" class="date"></div></div>
       <div class="top-actions">
         <div class="status-chip">TIME<b id="clock">--:--</b></div>
         <div class="status-chip">FOCUS MODE<b id="topFocus">Balanced</b></div>
         <div class="status-chip"><span class="dot"></span>DATA<b>Saved locally</b></div>
-        <button class="btn gold" onclick="showPage('calendar')">＋ Add Event</button>
+        <button class="btn gold" onclick="showPage('projects')">＋ Add Project</button>
         <button class="btn" onclick="saveData(true)">↻ Save</button>
       </div>
     </header>
@@ -54,5 +55,6 @@
 <script src="/v8.js"></script>
 <script src="/share.js"></script>
 <script src="/v10.js"></script>
+<script src="/v11.js"></script>
 </body>
 </html>
