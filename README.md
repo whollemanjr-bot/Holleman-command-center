@@ -1,35 +1,47 @@
-# Holleman Command Center — Intelligence Brief
+# Holleman Personal Dashboard — Morning Briefing
 
-A premium, zero-build personal command center based on the **Mockup C — Intelligence Brief** direction.
+A premium, zero-build personal dashboard built around a readable morning briefing and the **Mockup C** visual direction.
 
-## Design direction
+## Home screen
 
-The home screen is an information-first command dashboard with:
+The Home screen combines:
 
-- Daily intelligence brief and readiness score
-- Today’s agenda
-- Heart, recovery, and sleep snapshot
-- Career pipeline
-- Important deadlines
-- Nutrition and hydration summary
-- Health snapshot
-- Training-load visualization
-- Quick actions and system status
+- Morning overview and readiness
+- Today’s schedule and priorities
+- Health and recovery snapshot
+- Career progress
+- Nutrition and important dates
+- Eight briefing subjects from the scheduled 7:00 AM morning brief:
+  - Law Enforcement & Public Safety
+  - Maryland News
+  - National Politics
+  - Markets & Economy
+  - Fitness & Health
+  - Technology & AI
+  - Tesla & EVs
+  - Firearms & 2A
+
+Briefing coverage prioritizes breaking news, career opportunities, policy and legal changes, research and studies, product releases, and Maryland developments.
 
 ## Preserved performance modules
 
-This rebuild is additive rather than reductive. It keeps the original performance areas:
+The rebuild keeps the existing performance areas:
 
-- Command
-- Heart
+- Today and priorities
+- Health and recovery
 - Running
 - Strength
 - Nutrition
 - Body composition
+- Career
 - Workout plans
 - Data and settings
 
-It also adds Calendar, Career, and Briefing sections around those existing modules.
+## Morning Brief editor
+
+The Morning Brief page allows the local headline, summary, top priority, daily focus, and all eight topic cards to be edited. The current zero-build version stores that copy in browser `localStorage`.
+
+Automated live stories require a connected data source in a later phase.
 
 ## Apple Calendar
 
