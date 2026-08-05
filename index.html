@@ -6,27 +6,28 @@
 <meta name="theme-color" content="#080a0d">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Holleman Command">
+<meta name="apple-mobile-web-app-title" content="Holleman Dashboard">
 <link rel="manifest" href="/manifest.webmanifest">
-<title>Holleman Command Center — Intelligence Brief</title>
+<title>Holleman Personal Dashboard — Morning Briefing</title>
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/briefing.css">
 </head>
 <body>
 <div class="app">
   <aside class="sidebar">
-    <div class="brand"><div class="crest">H</div><div><strong>HOLLEMAN</strong><small>COMMAND CENTER</small></div></div>
+    <div class="brand"><div class="crest">H</div><div><strong>HOLLEMAN</strong><small>PERSONAL DASHBOARD</small></div></div>
     <nav id="nav" class="nav"></nav>
     <div class="sidebar-bottom">
-      <div class="focus-card"><small>FOCUS MODE</small><b><span class="dot"></span><span id="focusLabel">Operational</span></b></div>
+      <div class="focus-card"><small>TODAY'S FOCUS</small><b><span class="dot"></span><span id="focusLabel">Balanced</span></b></div>
       <div class="quote-card">“Discipline is the bridge between goals and accomplishment.”<b>— Jim Rohn</b></div>
     </div>
   </aside>
   <main class="main">
     <header class="topbar">
-      <div><div id="greeting" class="greeting">GOOD EVENING, WALTER</div><h1 id="pageTitle">Intelligence Brief</h1><div id="date" class="date"></div></div>
+      <div><div id="greeting" class="greeting">GOOD EVENING, WALTER</div><h1 id="pageTitle">Morning Briefing</h1><div id="date" class="date"></div></div>
       <div class="top-actions">
-        <div class="status-chip">LOCAL TIME<b id="clock">--:--</b></div>
-        <div class="status-chip">FOCUS<b id="topFocus">Operational</b></div>
+        <div class="status-chip">TIME<b id="clock">--:--</b></div>
+        <div class="status-chip">TODAY<b id="topFocus">Balanced</b></div>
         <div class="status-chip"><span class="dot"></span>DATA<b>Saved locally</b></div>
         <button class="btn gold" onclick="showPage('calendar')">＋ Add Event</button>
         <button class="btn" onclick="saveData(true)">↻ Save</button>
