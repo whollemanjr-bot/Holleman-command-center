@@ -1,9 +1,9 @@
 {
-  "name": "Holleman Personal Dashboard",
-  "short_name": "Holleman Dashboard",
+  "name": "Holleman Command Center — Morning Brief",
+  "short_name": "Holleman Command",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#080a0d",
   "theme_color": "#080a0d",
-  "description": "A personal dashboard for morning news, schedule, health, career, calendar, and daily priorities."
+  "description": "A personal command center for live morning news, calendar, health, career, performance, and daily priorities."
 }
