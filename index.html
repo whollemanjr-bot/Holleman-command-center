@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Holleman Command">
 <link rel="manifest" href="/manifest.webmanifest">
-<title>Holleman Command Center — V11</title>
+<title>Holleman Command Center — V12 Beta</title>
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/briefing.css">
 <link rel="stylesheet" href="/connections.css">
@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="/v10.css">
 <link rel="stylesheet" href="/v11.css">
 <link rel="stylesheet" href="/v11-fixes.css">
+<link rel="stylesheet" href="/v12.css">
 </head>
 <body>
 <div class="app">
@@ -37,7 +38,7 @@
         <div class="status-chip">TIME<b id="clock">--:--</b></div>
         <div class="status-chip">FOCUS MODE<b id="topFocus">Balanced</b></div>
         <div class="status-chip"><span class="dot"></span>DATA<b>Saved locally</b></div>
-        <button class="btn gold" onclick="showPage('projects')">＋ Add Project</button>
+        <button class="btn gold" onclick="startScheduledWorkout()">＋ Log Workout</button>
         <button class="btn" onclick="saveData(true)">↻ Save</button>
       </div>
     </header>
@@ -60,5 +61,6 @@
 <script src="/v11-career-link-fix.js"></script>
 <script src="/v11-fixes.js"></script>
 <script src="/v11-training-schedule.js"></script>
+<script src="/v12.js"></script>
 </body>
 </html>
