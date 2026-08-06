@@ -1,8 +1,9 @@
 {
-  "name":"Holleman Performance Command Center",
-  "short_name":"Holleman Command",
-  "start_url":"/",
-  "display":"standalone",
-  "background_color":"#07090d",
-  "theme_color":"#07090d"
+  "name": "Holleman Command Center — Morning Brief",
+  "short_name": "Holleman Command",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080a0d",
+  "theme_color": "#080a0d",
+  "description": "A personal command center for live morning news, calendar, health, career, performance, and daily priorities."
 }
