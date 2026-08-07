@@ -1,59 +1,59 @@
 {
-  "updatedAt": "2026-08-05T17:58:00-04:00",
+  "updatedAt": "2026-08-07T08:00:00-04:00",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
     {
       "id": "amazon-sr-corporate-investigator",
       "company": "Amazon",
-      "title": "Sr. Corporate Investigator, Enterprise Protection Program",
+      "title": "Sr. Corporate Investigator, Enterprise Protection Program - Global Investigations (EPP-GI)",
       "location": "Arlington, VA",
-      "workModel": "On-site / Hybrid potential",
-      "salary": "Not listed",
+      "workModel": "On-site / 50%+ travel",
+      "salary": "$90,100–$157,600 base + sign-on/RSUs",
       "fit": 96,
       "category": "Investigations",
-      "summary": "Direct match for complex investigations, evidence development, suspicious-activity review, and cross-functional coordination.",
-      "applyUrl": "https://click.appcast.io/t/aHXnXTAjjTeZbnfUtq-dhZaNEy6qwESt6XEz-YDn0Eo50Di3EzD3v3BQl-4EeeOoMm_o2Zw06zKXXUiWdlZ0Uw==?sar_id=296bylhb&jpos=6",
-      "source": "Appcast"
+      "summary": "Exceptional direct match for complex investigations, law enforcement, crisis/security operations, evidence development, interviewing, and cross-functional leadership.",
+      "applyUrl": "https://www.amazon.jobs/en/jobs/10473792/sr-corporate-investigator-enterprise-protection-program-global-investigations-epp-gi",
+      "source": "Amazon Jobs"
     },
     {
-      "id": "constellation-director-audit-services",
-      "company": "Constellation Energy",
-      "title": "Director - Audit Services",
-      "location": "Baltimore, MD",
-      "workModel": "Local leadership role",
-      "salary": "$195,300–$217,000",
-      "fit": 92,
-      "category": "Risk & Audit",
-      "summary": "Strong compensation and leadership fit for enterprise risk, oversight, investigations, controls, and executive communication.",
-      "applyUrl": "https://click.appcast.io/t/TOHsGEbaKUcrWekExTqghyDsdBMv36OkhFdvTwdcRj5A_zl0bEa1rk6maFpSrs2kvK2vviBM6dp7MMZN7BJO2A==?sar_id=296bylhb&jpos=13",
-      "source": "Appcast"
+      "id": "usfintech-sr-director-enterprise-risk-intelligence",
+      "company": "U.S. Financial Technology",
+      "title": "Sr. Director of Enterprise Risk Programs and Intelligence",
+      "location": "US Remote",
+      "workModel": "Remote",
+      "salary": "$236,500–$267,750",
+      "fit": 94,
+      "category": "Enterprise Risk",
+      "summary": "High-value stretch role combining Walter's banking leadership and risk background with enterprise intelligence, emerging-risk monitoring, executive reporting, scenario analysis, and cross-functional operations.",
+      "applyUrl": "https://careers-usfintech.icims.com/jobs/2419/sr.-director-of-enterprise-risk-programs-and-intelligence/job",
+      "source": "U.S. FinTech Careers"
     },
     {
       "id": "kpmg-director-markets-compliance",
       "company": "KPMG",
       "title": "Director, Markets Compliance",
-      "location": "Baltimore, MD",
+      "location": "Washington, DC",
       "workModel": "Hybrid potential",
       "salary": "Not listed",
-      "fit": 88,
+      "fit": 86,
       "category": "Compliance",
-      "summary": "Leverages banking risk experience, investigative judgment, stakeholder management, and leadership in regulated environments.",
-      "applyUrl": "https://click.appcast.io/t/DyV2d7TAyFkVQnLkCjmnQkpk_DFXQuq_5Dr2QiBUUu7XUVe0VbGEj0h7b-6ASRsr?sar_id=296bylhb&jpos=2",
-      "source": "Appcast"
+      "summary": "Strong banking-risk and regulated-environment alignment, though the role favors direct capital-markets regulatory experience and is therefore a selective stretch.",
+      "applyUrl": "https://jobs.appcast.io/kpmg/director-markets-complaince/46538282368",
+      "source": "KPMG / Appcast"
     },
     {
       "id": "blackwood-director-alliances",
       "company": "Blackwood Associates",
       "title": "Director, Alliances (SLED & Enterprise)",
-      "location": "Annapolis, MD",
-      "workModel": "Local / Hybrid potential",
+      "location": "Annapolis, MD / Washington, DC / Virginia",
+      "workModel": "Remote / regional",
       "salary": "$240,000–$280,000",
       "fit": 82,
       "category": "Executive Leadership",
-      "summary": "Stretch role combining public-sector credibility, enterprise relationships, cybersecurity solutions, and executive leadership.",
-      "applyUrl": "https://www.ziprecruiter.com/job-redirect?match_token=Co8BChZ2UTJURGg3akZqWVJ4YkZ3Ty1pWlh3EiQwMTlmZDNlNy02OTRlLTdlYTItYjFiMC0wYzEzNTFhODE2ZDkaS0FBRXBxU0xyQlhXUEtmazNrWlZYNC1pa01NTWNtRGZPYnEtWkh3ZTBrNHVkMVhnWmwxTGdoOVJZXzA3bGpIcURkVVZWd0t4b1hfdyDarQUQARjarQU%3D&server_redirect=true&tsid=100000600",
-      "source": "ZipRecruiter"
+      "summary": "Stretch executive role leveraging public-sector credibility, enterprise relationships, operational leadership, cybersecurity exposure, and stakeholder management.",
+      "applyUrl": "https://www.indeed.com/viewjob?jk=900139736f98bece",
+      "source": "Indeed"
     }
   ]
 }
