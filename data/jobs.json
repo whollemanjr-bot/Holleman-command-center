@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T18:01:00Z",
+  "updatedAt": "2026-08-13T12:04:00Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -20,14 +20,14 @@
       "id": "hpe-director-government-investigations",
       "company": "Hewlett Packard Enterprise",
       "title": "Director of Government Investigations",
-      "location": "Washington, DC",
+      "location": "Washington, DC / King of Prussia, PA",
       "workModel": "Full-time / on-site",
       "salary": "$161,000–$389,500",
       "fit": 96,
       "category": "Investigations",
-      "summary": "Top-tier match combining complex investigations, government-facing work, executive judgment, compliance, evidence development, and senior investigative leadership; compensation reaches well above target.",
-      "applyUrl": "https://to.indeed.com/aam869sh46yl",
-      "source": "HPE / Indeed"
+      "summary": "Top-tier investigations leadership role covering complex internal and government investigations, executive reporting, compliance, evidence development, and interaction with government agencies; high-upside but legally oriented.",
+      "applyUrl": "https://hpe.wd5.myworkdayjobs.com/ACJobSite/job/Director-of-Government-Investigations_1208563",
+      "source": "HPE Careers"
     },
     {
       "id": "capital-one-director-risk-management-resilience",
@@ -38,22 +38,35 @@
       "salary": "$206,000–$235,100 in McLean",
       "fit": 95,
       "category": "Enterprise Risk & Resilience",
-      "summary": "Excellent combination of Walter's prior financial-services leadership and risk background with crisis response, operational resilience, incident reporting, executive communication, and people leadership.",
+      "summary": "Excellent combination of prior financial-services leadership and risk experience with crisis response, operational resilience, incident reporting, executive communication, and people leadership.",
       "applyUrl": "https://www.capitalonecareers.com/job/mclean/director-risk-management/1732/97924212656",
+      "source": "Capital One Careers"
+    },
+    {
+      "id": "capital-one-director-erm-issues-events",
+      "company": "Capital One",
+      "title": "Director, Enterprise Risk Management Issues & Events",
+      "location": "McLean, VA / Richmond, VA / Chicago, IL / Riverwoods, IL",
+      "workModel": "Full-time / hybrid",
+      "salary": "$206,000–$235,100 in McLean",
+      "fit": 94,
+      "category": "Enterprise Risk",
+      "summary": "Strong new banking-risk leadership match focused on enterprise risk assessment, issue and event governance, risk mitigation methodology, executive communication, and leading teams across a highly regulated financial-services environment.",
+      "applyUrl": "https://www.capitalonecareers.com/job/mclean/director-enterprise-risk-management-issues-and-events/1732/97925521936",
       "source": "Capital One Careers"
     },
     {
       "id": "guidehouse-associate-director-fraud-advisory",
       "company": "Guidehouse",
       "title": "Managing Consultant / Associate Director – Fraud Advisory – Financial Crimes Risk and Compliance",
-      "location": "McLean, VA",
+      "location": "McLean, VA / New York",
       "workModel": "Full-time / consulting / up to 75% travel",
       "salary": "$122,000–$204,000",
       "fit": 94,
       "category": "Fraud & Financial Crimes",
-      "summary": "Strong crossover of investigative experience and banking/risk background into fraud advisory, financial-crimes risk, compliance program design, and client-facing leadership.",
-      "applyUrl": "https://to.indeed.com/aayqtrkz96ms",
-      "source": "Guidehouse / Indeed"
+      "summary": "Strong crossover of investigative experience and banking/risk background into fraud advisory, financial-crimes risk, compliance program design, investigations, recovery, and client-facing leadership.",
+      "applyUrl": "https://www.ziprecruiter.com/c/Guidehouse/Job/Managing-Consultant-Associate-Director-Fraud-Advisory-Financial-Crimes-Risk-and-Compliance-%28F.../-in-Mclean%2CVA?jid=948c42226ed204ec",
+      "source": "Guidehouse / ZipRecruiter"
     },
     {
       "id": "control-risks-director-operational-security",
@@ -77,8 +90,8 @@
       "salary": "$222,400–$320,000",
       "fit": 91,
       "category": "Enterprise Risk",
-      "summary": "High-upside stretch role aligned with regulated environments, enterprise risk, governance, executive communication, and cross-functional leadership, but requiring deeper formal ERM experience than Walter's strongest security/investigations matches.",
-      "applyUrl": "https://to.indeed.com/aagdkdbpzl4y",
+      "summary": "High-upside stretch role aligned with regulated environments, enterprise risk, governance, executive communication, and cross-functional leadership, but requiring deeper formal ERM experience than the strongest security/investigations matches.",
+      "applyUrl": "https://to.indeed.com/aaxbvh4lblkf",
       "source": "PCAOB / Indeed"
     },
     {
@@ -93,19 +106,6 @@
       "summary": "Strong Baltimore-based senior leadership opportunity in a highly regulated environment, with substantial alignment to risk, compliance, investigations, executive judgment, and cross-functional operations.",
       "applyUrl": "https://click.appcast.io/t/oiN5oi2IAaJu4peZjNpQL_7RTozcZPzePl797ffVjJmvzj3sSN92cqwInyKXLXXz6Jhv-nqo1ddfjVFsnGQTXw==?sar_id=29an8n6f&jpos=9",
       "source": "Constellation Energy / Appcast"
-    },
-    {
-      "id": "comcast-executive-director-strategy-operations",
-      "company": "Comcast",
-      "title": "Executive Director, Strategy & Operations, Comcast Government Services",
-      "location": "Reston, VA / Multiple Locations",
-      "workModel": "Full-time",
-      "salary": "$191,482–$314,578 (location-dependent)",
-      "fit": 90,
-      "category": "Executive Operations",
-      "summary": "Strong senior-operations target leveraging Walter's multi-state leadership, government/public-safety credibility, executive communication, performance management, and strategic execution background.",
-      "applyUrl": "https://www.indeed.com/viewjob?jk=74320b8f5dbc92ed",
-      "source": "Comcast / Indeed"
     },
     {
       "id": "dhl-director-security-operations-na",
