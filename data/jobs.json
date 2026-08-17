@@ -1,8 +1,21 @@
 {
-  "updatedAt": "2026-08-15T12:01:18Z",
+  "updatedAt": "2026-08-17T12:01:37Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
+    {
+      "id": "uhg-director-enterprise-risk-intelligence",
+      "company": "UnitedHealth Group",
+      "title": "Director of Enterprise Risk Intelligence",
+      "location": "Washington, DC / Reston, VA / Baltimore, MD",
+      "workModel": "Full-time / hybrid (4 days in office)",
+      "salary": "$134,600–$230,800",
+      "fit": 98,
+      "category": "Enterprise Risk Intelligence & Corporate Security",
+      "summary": "Exceptional direct match for intelligence-led risk, corporate security, crisis management, protective intelligence, ESOC integration, executive briefings, threat assessment, and senior operational leadership.",
+      "applyUrl": "https://careers.unitedhealthgroup.com/en/job/washington-d-c/director-of-enterprise-risk-intelligence/34088/96560794368",
+      "source": "UnitedHealth Group Careers"
+    },
     {
       "id": "amazon-sr-corporate-investigator",
       "company": "Amazon",
@@ -15,19 +28,6 @@
       "summary": "Exceptional direct match for complex investigations, law enforcement, crisis/security operations, evidence development, interviewing, and cross-functional leadership.",
       "applyUrl": "https://www.amazon.jobs/en/jobs/10473792/sr-corporate-investigator-enterprise-protection-program-global-investigations-epp-gi",
       "source": "Amazon Jobs"
-    },
-    {
-      "id": "hpe-director-government-investigations",
-      "company": "Hewlett Packard Enterprise",
-      "title": "Director of Government Investigations",
-      "location": "Washington, DC / King of Prussia, PA",
-      "workModel": "Full-time / on-site",
-      "salary": "$161,000–$389,500",
-      "fit": 96,
-      "category": "Investigations",
-      "summary": "Top-tier investigations leadership role covering complex internal and government investigations, executive reporting, compliance, evidence development, and interaction with government agencies; high-upside but legally oriented.",
-      "applyUrl": "https://hpe.wd5.myworkdayjobs.com/ACJobSite/job/Director-of-Government-Investigations_1208563",
-      "source": "HPE Careers"
     },
     {
       "id": "capital-one-director-risk-management-resilience",
@@ -54,6 +54,19 @@
       "summary": "Excellent banking-plus-security crossover role reporting to the Chief Risk Officer, with responsibility for operational risk, resilience, business continuity, physical security, regulatory exams, ERM governance, and executive/board reporting.",
       "applyUrl": "https://www.indeed.com/viewjob?jk=180ed18a0d0ef0a9&vjs=3",
       "source": "EagleBank / Indeed"
+    },
+    {
+      "id": "gsa-executive-director-integrity-oversight",
+      "company": "DC Office of the Chief Financial Officer",
+      "title": "Executive Director - Office of Integrity and Oversight",
+      "location": "Washington, DC",
+      "workModel": "Full-time / permanent",
+      "salary": "$205,373–$225,100",
+      "fit": 95,
+      "category": "Integrity, Investigations & Oversight",
+      "summary": "Senior integrity and oversight leadership role with strong alignment to investigations, internal controls, risk, executive judgment, regulated financial operations, and public-sector accountability.",
+      "applyUrl": "https://www.governmentjobs.com/careers/dc/jobs/5324674/executive-director-office-of-integrity-and-oversight",
+      "source": "DC Government Jobs"
     },
     {
       "id": "capital-one-director-erm-issues-events",
