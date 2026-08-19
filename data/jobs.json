@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T12:01:37Z",
+  "updatedAt": "2026-08-19T12:00:15Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -15,6 +15,19 @@
       "summary": "Exceptional direct match for intelligence-led risk, corporate security, crisis management, protective intelligence, ESOC integration, executive briefings, threat assessment, and senior operational leadership.",
       "applyUrl": "https://careers.unitedhealthgroup.com/en/job/washington-d-c/director-of-enterprise-risk-intelligence/34088/96560794368",
       "source": "UnitedHealth Group Careers"
+    },
+    {
+      "id": "eaglebank-head-financial-crimes-fraud",
+      "company": "EagleBank",
+      "title": "Head of Financial Crimes and Fraud",
+      "location": "Bethesda, MD",
+      "workModel": "Full-time / hybrid (4 days in office)",
+      "salary": "$176,965.97–$303,370.23",
+      "fit": 97,
+      "category": "Financial Crimes, Fraud & Risk",
+      "summary": "Exceptional banking-plus-investigations crossover leading the bank's financial-crimes risk program, BSA/AML oversight, second-line fraud prevention, fraud response, governance, regulatory examinations, and senior risk leadership.",
+      "applyUrl": "https://www.indeed.com/cmp/Eaglebank-4/jobs",
+      "source": "EagleBank / Indeed"
     },
     {
       "id": "amazon-sr-corporate-investigator",
@@ -64,7 +77,7 @@
       "salary": "$205,373–$225,100",
       "fit": 95,
       "category": "Integrity, Investigations & Oversight",
-      "summary": "Senior integrity and oversight leadership role with strong alignment to investigations, internal controls, risk, executive judgment, regulated financial operations, and public-sector accountability.",
+      "summary": "Senior integrity and oversight leadership role with direct responsibility for internal security, criminal and administrative investigations, law-enforcement liaison, internal audit, ethics, compliance, and public-sector accountability.",
       "applyUrl": "https://www.governmentjobs.com/careers/dc/jobs/5324674/executive-director-office-of-integrity-and-oversight",
       "source": "DC Government Jobs"
     },
@@ -80,19 +93,6 @@
       "summary": "Strong banking-risk leadership match focused on enterprise risk assessment, issue and event governance, risk mitigation methodology, executive communication, and leading teams across a highly regulated financial-services environment.",
       "applyUrl": "https://www.capitalonecareers.com/job/mclean/director-enterprise-risk-management-issues-and-events/1732/97925521936",
       "source": "Capital One Careers"
-    },
-    {
-      "id": "guidehouse-associate-director-fraud-advisory",
-      "company": "Guidehouse",
-      "title": "Managing Consultant / Associate Director – Fraud Advisory – Financial Crimes Risk and Compliance",
-      "location": "McLean, VA / New York",
-      "workModel": "Full-time / consulting / up to 75% travel",
-      "salary": "$122,000–$204,000",
-      "fit": 94,
-      "category": "Fraud & Financial Crimes",
-      "summary": "Strong crossover of investigative experience and banking/risk background into fraud advisory, financial-crimes risk, compliance program design, investigations, recovery, and client-facing leadership.",
-      "applyUrl": "https://www.ziprecruiter.com/c/Guidehouse/Job/Managing-Consultant-Associate-Director-Fraud-Advisory-Financial-Crimes-Risk-and-Compliance-%28F.../-in-Mclean%2CVA?jid=948c42226ed204ec",
-      "source": "Guidehouse / ZipRecruiter"
     },
     {
       "id": "dhl-director-security-operations-na",
