@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:02:55Z",
+  "updatedAt": "2026-08-23T12:02:08Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -15,6 +15,19 @@
       "summary": "Exceptional direct match for complex investigations, law enforcement, crisis/security operations, evidence development, interviewing, and cross-functional leadership.",
       "applyUrl": "https://www.amazon.jobs/en/jobs/10473792/sr-corporate-investigator-enterprise-protection-program-global-investigations-epp-gi",
       "source": "Amazon Jobs"
+    },
+    {
+      "id": "capital-one-sr-director-enterprise-payments-risk-oversight",
+      "company": "Capital One",
+      "title": "Sr. Director, Enterprise Payments Risk and Oversight",
+      "location": "McLean, VA / Richmond, VA",
+      "workModel": "Full-time / hybrid (3 days in office)",
+      "salary": "$238,700–$272,400 in McLean; $217,000–$247,700 in Richmond + incentives",
+      "fit": 96,
+      "category": "Enterprise Risk & Senior Operations",
+      "summary": "Excellent senior-level fit combining financial-services leadership, enterprise risk governance, operational excellence, people leadership, executive stakeholder management, and large-scale oversight responsibilities.",
+      "applyUrl": "https://www.capitalonecareers.com/job/richmond/sr-director-enterprise-payments-risk-and-oversight-hybrid/1732/99219547440",
+      "source": "Capital One Careers"
     },
     {
       "id": "capital-one-director-risk-management-resilience",
@@ -41,19 +54,6 @@
       "summary": "Senior integrity and oversight leadership role with direct responsibility for internal security, criminal and administrative investigations, law-enforcement liaison, internal audit, ethics, compliance, and public-sector accountability.",
       "applyUrl": "https://www.governmentjobs.com/careers/dc/jobs/5324674/executive-director-office-of-integrity-and-oversight",
       "source": "DC Government Jobs"
-    },
-    {
-      "id": "dot-deputy-director-intelligence-security-emergency-response",
-      "company": "U.S. Department of Transportation",
-      "title": "Deputy Director, Office of Intelligence, Security, and Emergency Response",
-      "location": "Washington, DC",
-      "workModel": "Full-time / permanent",
-      "salary": "$151,661–$218,800",
-      "fit": 95,
-      "category": "Intelligence, Security & Crisis Management",
-      "summary": "Exceptional mission fit for intelligence, security, emergency response, executive decision support, interagency coordination, and crisis leadership at the department level.",
-      "applyUrl": "https://to.indeed.com/aaf6cbfmhnbn",
-      "source": "U.S. Department of Transportation / Indeed"
     },
     {
       "id": "capital-one-director-erm-issues-events",
@@ -108,17 +108,17 @@
       "source": "Control Risks Careers"
     },
     {
-      "id": "morgan-stanley-global-cyber-intelligence-partnerships",
-      "company": "Morgan Stanley",
-      "title": "Executive Director | Global Cyber and Intelligence Partnerships Lead",
-      "location": "Baltimore, MD",
-      "workModel": "Full-time / on-site",
-      "salary": "$160,000–$230,000 base + potential incentives",
+      "id": "capital-one-director-card-risk-management",
+      "company": "Capital One",
+      "title": "Director, Card Risk Management",
+      "location": "McLean, VA / Richmond, VA",
+      "workModel": "Full-time / hybrid",
+      "salary": "$206,000–$235,100 in McLean; $187,300–$213,700 in Richmond",
       "fit": 92,
-      "category": "Intelligence & Financial Services",
-      "summary": "Rare banking-plus-intelligence leadership role focused on government and intelligence-community liaison, threat-intelligence partnerships, executive briefings, and global stakeholder leadership. Active TS/SCI clearance is required.",
-      "applyUrl": "https://www.indeed.com/viewjob?jk=8e33a4bdc9e9ae00",
-      "source": "Morgan Stanley / Indeed"
+      "category": "Banking Risk & Operations",
+      "summary": "Strong banking-risk leadership opportunity centered on high-profile risk initiatives, organizational change, cross-functional financial-services programs, and leading risk managers and specialists.",
+      "applyUrl": "https://www.capitalonecareers.com/job/richmond/director-card-risk-management/1732/98064282560",
+      "source": "Capital One Careers"
     },
     {
       "id": "pcaob-associate-director-erm",
