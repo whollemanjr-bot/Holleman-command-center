@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T12:02:08Z",
+  "updatedAt": "2026-08-25T12:01:37Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -13,8 +13,8 @@
       "fit": 96,
       "category": "Investigations",
       "summary": "Exceptional direct match for complex investigations, law enforcement, crisis/security operations, evidence development, interviewing, and cross-functional leadership.",
-      "applyUrl": "https://www.amazon.jobs/en/jobs/10473792/sr-corporate-investigator-enterprise-protection-program-global-investigations-epp-gi",
-      "source": "Amazon Jobs"
+      "applyUrl": "https://to.indeed.com/aamwyct888tl",
+      "source": "Amazon / Indeed"
     },
     {
       "id": "capital-one-sr-director-enterprise-payments-risk-oversight",
@@ -28,6 +28,19 @@
       "summary": "Excellent senior-level fit combining financial-services leadership, enterprise risk governance, operational excellence, people leadership, executive stakeholder management, and large-scale oversight responsibilities.",
       "applyUrl": "https://www.capitalonecareers.com/job/richmond/sr-director-enterprise-payments-risk-and-oversight-hybrid/1732/99219547440",
       "source": "Capital One Careers"
+    },
+    {
+      "id": "capital-one-senior-director-erm",
+      "company": "Capital One",
+      "title": "Senior Director, Enterprise Risk Management",
+      "location": "McLean, VA",
+      "workModel": "Full-time / hybrid",
+      "salary": "$217,000–$247,700",
+      "fit": 95,
+      "category": "Enterprise Risk & Senior Leadership",
+      "summary": "New senior-level banking risk target combining enterprise risk strategy, executive leadership, regulated financial-services experience, cross-functional governance, and people leadership.",
+      "applyUrl": "https://to.indeed.com/aar4w4kd946n",
+      "source": "Capital One / Indeed"
     },
     {
       "id": "capital-one-director-risk-management-resilience",
@@ -56,30 +69,17 @@
       "source": "DC Government Jobs"
     },
     {
-      "id": "capital-one-director-erm-issues-events",
-      "company": "Capital One",
-      "title": "Director, Enterprise Risk Management Issues & Events",
-      "location": "McLean, VA / Richmond, VA / Chicago, IL / Riverwoods, IL",
-      "workModel": "Full-time / hybrid",
-      "salary": "$206,000–$235,100 in McLean",
-      "fit": 94,
-      "category": "Enterprise Risk",
-      "summary": "Strong banking-risk leadership match focused on enterprise risk assessment, issue and event governance, risk mitigation methodology, executive communication, and leading teams across a highly regulated financial-services environment.",
-      "applyUrl": "https://www.capitalonecareers.com/job/mclean/director-enterprise-risk-management-issues-and-events/1732/97925521936",
-      "source": "Capital One Careers"
-    },
-    {
-      "id": "guidehouse-associate-director-fraud-advisory",
-      "company": "Guidehouse",
-      "title": "Managing Consultant / Associate Director – Fraud Advisory – Financial Crimes Risk and Compliance",
+      "id": "booz-allen-employee-relations-investigator-lead",
+      "company": "Booz Allen Hamilton",
+      "title": "Employee Relations Investigator Lead",
       "location": "McLean, VA",
-      "workModel": "Full-time / consulting / up to 75% travel",
-      "salary": "$122,000–$204,000",
-      "fit": 94,
-      "category": "Fraud & Financial Crimes",
-      "summary": "Strong crossover of investigative experience and banking/risk background into fraud advisory, financial-crimes risk, compliance program design, and client-facing leadership; no clearance required.",
-      "applyUrl": "https://to.indeed.com/aakg9txggnn2",
-      "source": "Guidehouse / Indeed"
+      "workModel": "Full-time",
+      "salary": "$86,800–$198,000",
+      "fit": 95,
+      "category": "Corporate Investigations",
+      "summary": "Strong new investigations role focused on leading complex sensitive investigations, interviewing, evidence analysis, findings, documentation, and senior-level judgment in a large corporate environment.",
+      "applyUrl": "https://to.indeed.com/aajj2pjhbkq9",
+      "source": "Booz Allen Hamilton / Indeed"
     },
     {
       "id": "dhl-director-security-operations-na",
@@ -95,6 +95,19 @@
       "source": "DHL Supply Chain / Indeed"
     },
     {
+      "id": "metrostar-sr-director-national-security-operations",
+      "company": "MetroStar Systems",
+      "title": "Sr. Director, National Security Operations",
+      "location": "Reston, VA",
+      "workModel": "Full-time",
+      "salary": "$184,000–$270,000",
+      "fit": 94,
+      "category": "National Security & Senior Operations",
+      "summary": "New high-compensation operations leadership target centered on national-security portfolio execution, operational effectiveness, strategic leadership, and senior stakeholder management.",
+      "applyUrl": "https://to.indeed.com/aavmrdkvshp9",
+      "source": "MetroStar Systems / Indeed"
+    },
+    {
       "id": "control-risks-director-operational-security",
       "company": "Control Risks",
       "title": "Director, Operational Security (Protective Services)",
@@ -104,8 +117,8 @@
       "fit": 93,
       "category": "Operational Security",
       "summary": "Highly relevant police-to-corporate-security transition role covering protective services, executive protection, event security, complex operational-security programs, crisis management, and protective intelligence.",
-      "applyUrl": "https://apply.workable.com/control-risks-6/j/9C2343E3F7/apply/",
-      "source": "Control Risks Careers"
+      "applyUrl": "https://to.indeed.com/aa9nwzqgx9xy",
+      "source": "Control Risks / Indeed"
     },
     {
       "id": "capital-one-director-card-risk-management",
@@ -119,19 +132,6 @@
       "summary": "Strong banking-risk leadership opportunity centered on high-profile risk initiatives, organizational change, cross-functional financial-services programs, and leading risk managers and specialists.",
       "applyUrl": "https://www.capitalonecareers.com/job/richmond/director-card-risk-management/1732/98064282560",
       "source": "Capital One Careers"
-    },
-    {
-      "id": "pcaob-associate-director-erm",
-      "company": "PCAOB",
-      "title": "Associate Director, Enterprise Risk Management",
-      "location": "Washington, DC",
-      "workModel": "Full-time",
-      "salary": "$222,400–$320,000",
-      "fit": 91,
-      "category": "Enterprise Risk",
-      "summary": "High-upside stretch role aligned with regulated environments, enterprise risk, governance, executive communication, and cross-functional leadership, but requiring deeper formal ERM experience than the strongest security/investigations matches.",
-      "applyUrl": "https://www.indeed.com/viewjob?jk=a63ed8ca93fe73ed",
-      "source": "PCAOB / Indeed"
     }
   ]
 }
