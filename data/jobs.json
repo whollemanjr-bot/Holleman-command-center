@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T11:57:52Z",
+  "updatedAt": "2026-09-14T12:07:19Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -15,6 +15,19 @@
       "summary": "Outstanding fit combining crisis-response leadership, operational readiness, command-center coordination, high-severity incident management, executive communication, operational risk, and financial-services experience.",
       "applyUrl": "https://www.capitalonecareers.com/job/mclean/senior-director-crisis-management/1732/100045810736",
       "source": "Capital One Careers"
+    },
+    {
+      "id": "baltimore-county-deputy-inspector-general",
+      "company": "Baltimore County Government",
+      "title": "Deputy Inspector General - Non-Merit",
+      "location": "Towson, MD",
+      "workModel": "Full-time / on-site / 35 hours per week",
+      "salary": "$136,637–$173,823",
+      "fit": 97,
+      "category": "Investigations, Oversight & Senior Operations",
+      "summary": "Exceptional direct-fit local role leading complex fraud, waste, abuse, misconduct and public-integrity investigations, supervising investigative staff, reviewing evidence and reports, coordinating with law enforcement and prosecutors, and serving as the Inspector General's principal deputy. Compensation is slightly below the preferred target, but the role alignment is unusually strong.",
+      "applyUrl": "https://www.governmentjobs.com/careers/baltimorecounty/jobs/5464684/deputy-inspector-general-non-merit",
+      "source": "Baltimore County Government Jobs"
     },
     {
       "id": "capital-one-sr-director-enterprise-payments-risk-oversight",
@@ -86,7 +99,7 @@
       "company": "TikTok USDS Joint Venture",
       "title": "Head of Physical Security & Safety - USDS",
       "location": "Washington, DC",
-      "workModel": "Full-time / hybrid",
+      "workModel": "Full-time / transitioning to fully in-person up to 5 days per week",
       "salary": "$121,680–$241,920 + potential bonus/incentives/RSUs",
       "fit": 93,
       "category": "Global Security & Crisis Management",
