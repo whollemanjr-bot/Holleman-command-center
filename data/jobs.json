@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T12:00:00Z",
+  "updatedAt": "2026-09-20T12:01:00Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -40,6 +40,19 @@
       "category": "Enterprise Risk, Fraud & Banking Leadership",
       "summary": "Excellent fit combining senior financial-services risk leadership, fraud mitigation, ecosystem integrity, brand protection, executive governance, threat-focused risk controls, and leadership of a 15–20 person team.",
       "applyUrl": "https://www.capitalonecareers.com/job/mclean/senior-director-risk-management-gpn-payment-success-and-ecosystem-integrity/1732/100364149792",
+      "source": "Capital One Careers"
+    },
+    {
+      "id": "capital-one-director-ecosystem-risk-integrity",
+      "company": "Capital One",
+      "title": "Director, Risk Management - Ecosystem Risk & Integrity",
+      "location": "McLean, VA / Richmond, VA / New York, NY / Chicago, IL / Riverwoods, IL",
+      "workModel": "Full-time / hybrid",
+      "salary": "$206,000–$235,100 in McLean; $187,300–$213,700 in Richmond + incentives",
+      "fit": 96,
+      "category": "Enterprise Risk, Fraud & Banking Leadership",
+      "summary": "Excellent match for banking leadership, enterprise risk and investigative thinking: leads a team protecting a global payment ecosystem from threats and abuse, including AML and operational risk, intelligent brand protection, executive risk advisory, gap assessments, governance and risk-control transformation.",
+      "applyUrl": "https://www.capitalonecareers.com/job/mclean/director-risk-management-ecosystem-risk-and-integrity/1732/100398232128",
       "source": "Capital One Careers"
     },
     {
@@ -93,19 +106,6 @@
       "summary": "Strong security-leadership match spanning 24/7 physical security operations, crisis management, investigations, threat intelligence, executive protection, law-enforcement liaison, workforce protection, budgets, vendors, and global team leadership; the main stretch is its preference for prior global corporate-security experience.",
       "applyUrl": "https://www.indeed.com/viewjob?jk=30891eb3ebc014d0",
       "source": "TikTok USDS JV / Indeed"
-    },
-    {
-      "id": "capital-one-sr-director-project-management-esm",
-      "company": "Capital One",
-      "title": "Senior Director, Project Management - Enterprise Supplier Management",
-      "location": "McLean, VA / Richmond, VA",
-      "workModel": "Full-time / hybrid",
-      "salary": "$238,700–$272,400 in McLean; $217,000–$247,700 in Richmond + incentives",
-      "fit": 92,
-      "category": "Senior Operations & Banking Leadership",
-      "summary": "Senior-operations role leading a 10–20 person PMO in a highly regulated financial-services environment, with executive governance, transformation, risk management, resource allocation, and operational strategy responsibilities.",
-      "applyUrl": "https://www.capitalonecareers.com/job/richmond/senior-director-project-management-enterprise-supplier-management/1732/100178104848",
-      "source": "Capital One Careers"
     },
     {
       "id": "comcast-executive-director-strategy-operations",
