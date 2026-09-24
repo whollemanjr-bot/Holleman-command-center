@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-09-22T11:57:20Z",
+  "updatedAt": "2026-09-24T12:02:45Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
-    {
-      "id": "capital-one-sr-director-crisis-management",
-      "company": "Capital One",
-      "title": "Senior Director, Crisis Management",
-      "location": "McLean, VA / Richmond, VA / Chicago, IL / New York, NY / Riverwoods, IL",
-      "workModel": "Full-time / hybrid",
-      "salary": "$238,700–$272,400 in McLean; $217,000–$247,700 in Richmond + incentives",
-      "fit": 97,
-      "category": "Crisis Management & Enterprise Risk",
-      "summary": "Outstanding fit combining crisis-response leadership, operational readiness, command-center coordination, high-severity incident management, executive communication, operational risk, and financial-services experience.",
-      "applyUrl": "https://www.capitalonecareers.com/job/mclean/senior-director-crisis-management/1732/100045810736",
-      "source": "Capital One Careers"
-    },
     {
       "id": "baltimore-county-deputy-inspector-general",
       "company": "Baltimore County Government",
@@ -69,6 +56,19 @@
       "source": "DC Government Jobs"
     },
     {
+      "id": "national-geographic-director-global-security",
+      "company": "National Geographic Society",
+      "title": "Director, Global Security",
+      "location": "Washington, DC",
+      "workModel": "Full-time / on-site flex",
+      "salary": "$161,500–$170,000",
+      "fit": 95,
+      "category": "Global Security, Intelligence & Crisis Management",
+      "summary": "Exceptional functional match leading global safety and risk mitigation, international security advances, threat and travel-risk assessments, intelligence synthesis, crisis response, executive protection support, law-enforcement liaison, and operational incident management. Salary is below the preferred target, but the role alignment is unusually direct.",
+      "applyUrl": "https://ngs.wd1.myworkdayjobs.com/en-US/ngs_external_career_site/job/Director--Global-Security_R2075-1",
+      "source": "National Geographic Society Careers"
+    },
+    {
       "id": "capital-one-director-erm-issues-events",
       "company": "Capital One",
       "title": "Director, Enterprise Risk Management Issues & Events",
@@ -87,7 +87,7 @@
       "title": "Director of Security Operations NA",
       "location": "East Coast / North America",
       "workModel": "Remote eligible for East Coast candidates",
-      "salary": "Not listed",
+      "salary": "$140,000–$190,000 reported",
       "fit": 94,
       "category": "Global Security",
       "summary": "Direct match for security operations, complex investigations, interviewing, crisis response, risk mitigation, law-enforcement partnerships, and regional security leadership across North America.",
@@ -95,17 +95,17 @@
       "source": "DHL Supply Chain / LinkedIn"
     },
     {
-      "id": "tiktok-usds-head-physical-security-safety",
-      "company": "TikTok USDS Joint Venture",
-      "title": "Head of Physical Security & Safety - USDS",
-      "location": "Washington, DC",
-      "workModel": "Full-time / transitioning to fully in-person up to 5 days per week",
-      "salary": "$121,680–$241,920 + potential bonus/incentives/RSUs",
+      "id": "danaher-director-global-security",
+      "company": "Beckman Coulter Diagnostics / Danaher",
+      "title": "Director, Global Security - Remote USA",
+      "location": "United States",
+      "workModel": "Full-time / fully remote / 40–60% international travel",
+      "salary": "$200,000–$215,000 + bonus/incentive pay",
       "fit": 93,
-      "category": "Global Security & Crisis Management",
-      "summary": "Strong security-leadership match spanning 24/7 physical security operations, crisis management, investigations, threat intelligence, executive protection, law-enforcement liaison, workforce protection, budgets, vendors, and global team leadership; the main stretch is its preference for prior global corporate-security experience.",
-      "applyUrl": "https://www.indeed.com/viewjob?jk=30891eb3ebc014d0",
-      "source": "TikTok USDS JV / Indeed"
+      "category": "Global Security, Enterprise Risk & Crisis Management",
+      "summary": "High-value remote security leadership role spanning enterprise security risk, physical security, investigations, crisis management, business continuity, travel security, executive protection and global strategy. The principal stretch is the requirement for 20+ years of relevant security/law-enforcement/intelligence/corporate-risk experience and 10+ years leading enterprise-level security programs; travel is substantial at 40–60%.",
+      "applyUrl": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/usa---remote/director--global-security---remote-usa_r1311657",
+      "source": "Danaher Careers"
     },
     {
       "id": "comcast-executive-director-strategy-operations",
