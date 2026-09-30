@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T11:58:55Z",
+  "updatedAt": "2026-09-30T11:56:31Z",
   "refreshCadence": "Every other day",
   "linkedin": "https://www.linkedin.com/in/walter-holleman-19306027",
   "jobs": [
@@ -119,6 +119,19 @@
       "summary": "Direct match for security operations, complex investigations, interviewing, crisis response, risk mitigation, law-enforcement partnerships, and regional security leadership across North America.",
       "applyUrl": "https://www.linkedin.com/jobs/view/director-of-security-operations-na-at-dhl-supply-chain-4441257367",
       "source": "DHL Supply Chain / LinkedIn"
+    },
+    {
+      "id": "brookings-director-safety-security",
+      "company": "The Brookings Institution",
+      "title": "Director of Safety and Security",
+      "location": "Washington, DC",
+      "workModel": "Full-time / on-site 4–5 days per week",
+      "salary": "$172,000–$180,000",
+      "fit": 94,
+      "category": "Security, Threat Management & Crisis Leadership",
+      "summary": "Strong local leadership match overseeing institutional security, threat management, incident investigations, crisis response, protective intelligence, travel safety, VIP and event protection, law-enforcement relationships, security vendors, risk monitoring, training, technology, and the security budget. Compensation reaches the lower end of the preferred target; the principal tradeoff is the 4–5 day on-site requirement.",
+      "applyUrl": "https://careers-brookings.icims.com/jobs/3848/director-of-safety-and-security-%28job-id%3A-2026-3848%29/job",
+      "source": "Brookings Institution Careers"
     },
     {
       "id": "danaher-director-global-security",
